@@ -4,7 +4,7 @@
   "scripts": {
     "start": "meteor run",
     "linter": "eslint --fix --ext .js --ext .jsx .",
-    "pretty": "prettier --use-tabs --no-semi --single-quote --jsx-bracket-same-line --write ./imports/**/*.js ./imports/**/*.jsx ",
+    "pretty": "prettier --use-tabs --no-semi --single-quote --jsx-bracket-same-line --write ./imports/**/*.js ./imports/**/*.jsx ./package.json ",
     "precommit": "meteor npm run linter && meteor npm run pretty"
   },
   "dependencies": {
