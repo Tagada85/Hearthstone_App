@@ -4,7 +4,6 @@ import Main from './Main'
 import 'semantic-ui-css/semantic.min.css'
 
 export default class App extends React.Component {
-
 	render() {
 		return (
 			<div className="App">
