@@ -5,12 +5,7 @@ import PropTypes from 'prop-types'
 
 export default class App extends React.Component {
 	render() {
-		return (
-			<div className="App">
-
-				{ this.props.content }
-			</div>
-		)
+		return <div className="App">{this.props.content}</div>
 	}
 }
 

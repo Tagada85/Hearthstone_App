@@ -6,16 +6,12 @@ const Header = () => (
 	<header>
 		<Menu>
 			<Menu.Item>
-				<a
-					href='' 
-					onClick={() => FlowRouter.go('/')}>
+				<a href="" onClick={() => FlowRouter.go('/')}>
 					Home
-				</a>	
+				</a>
 			</Menu.Item>
 			<Menu.Item>
-				<a
-					href=''
-					onClick={() => FlowRouter.go('/catalog')}>
+				<a href="" onClick={() => FlowRouter.go('/catalog')}>
 					Catalog
 				</a>
 			</Menu.Item>

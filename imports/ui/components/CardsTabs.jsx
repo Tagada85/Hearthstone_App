@@ -6,61 +6,61 @@ const CardsTabs = props => {
 	return (
 		<Menu>
 			<Menu.Item
-				name='Druid'
+				name="Druid"
 				active={props.activeTab === 'Druid'}
 				onClick={props.handleMenuClick}>
 				Druid
 			</Menu.Item>
 			<Menu.Item
-				name='Priest'
+				name="Priest"
 				active={props.activeTab === 'Priest'}
 				onClick={props.handleMenuClick}>
 				Priest
 			</Menu.Item>
 			<Menu.Item
-				name='Mage'
+				name="Mage"
 				active={props.activeTab === 'Mage'}
 				onClick={props.handleMenuClick}>
 				Mage
 			</Menu.Item>
 			<Menu.Item
-				name='Warlock'
+				name="Warlock"
 				active={props.activeTab === 'Warlock'}
 				onClick={props.handleMenuClick}>
 				Warlock
 			</Menu.Item>
 			<Menu.Item
-				name='Warrior'
+				name="Warrior"
 				active={props.activeTab === 'Warrior'}
 				onClick={props.handleMenuClick}>
 				Warrior
 			</Menu.Item>
 			<Menu.Item
-				name='Rogue'
+				name="Rogue"
 				active={props.activeTab === 'Rogue'}
 				onClick={props.handleMenuClick}>
 				Rogue
 			</Menu.Item>
 			<Menu.Item
-				name='Shaman'
+				name="Shaman"
 				active={props.activeTab === 'Shaman'}
 				onClick={props.handleMenuClick}>
 				Shaman
 			</Menu.Item>
 			<Menu.Item
-				name='Paladin'
+				name="Paladin"
 				active={props.activeTab === 'Paladin'}
 				onClick={props.handleMenuClick}>
 				Paladin
 			</Menu.Item>
 			<Menu.Item
-				name='Hunter'
+				name="Hunter"
 				active={props.activeTab === 'Hunter'}
 				onClick={props.handleMenuClick}>
 				Hunter
 			</Menu.Item>
 			<Menu.Item
-				name='Common'
+				name="Common"
 				active={props.activeTab === 'Common'}
 				onClick={props.handleMenuClick}>
 				Common

@@ -8,8 +8,8 @@ import Catalog from '/imports/ui/pages/Catalog'
 
 FlowRouter.route('/', {
 	name: 'Home',
-	action(){
-		mount( App, {
+	action() {
+		mount(App, {
 			content: <Home />
 		})
 	}
@@ -17,8 +17,8 @@ FlowRouter.route('/', {
 
 FlowRouter.route('/catalog', {
 	name: 'Catalog',
-	action(){
-		mount( Catalog, {
+	action() {
+		mount(Catalog, {
 			content: <Catalog />
 		})
 	}
