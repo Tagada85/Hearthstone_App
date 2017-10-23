@@ -1,15 +1,19 @@
 import React from 'react'
-import Header from './Header'
-import Main from './Main'
 import 'semantic-ui-css/semantic.min.css'
+
+import PropTypes from 'prop-types'
 
 export default class App extends React.Component {
 	render() {
 		return (
 			<div className="App">
-				<Header />
-				<Main />
+
+				{ this.props.content }
 			</div>
 		)
 	}
+}
+
+App.propTypes = {
+	content: PropTypes.node
 }

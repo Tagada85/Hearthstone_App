@@ -2,9 +2,11 @@
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "meteor": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -31,6 +33,10 @@
         "semi": [
             "error",
             "never"
+        ],
+        "no-console": [
+          "error",
+          { "allow": ["log"]}
         ],
         "react/jsx-uses-vars": [2]
     }
